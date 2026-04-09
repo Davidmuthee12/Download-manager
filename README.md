@@ -1,5 +1,4 @@
-````markdown id="r6n1dw"
-# Go CLI Download Manager
+    # Go CLI Download Manager
 
 A small concurrency project built to practice:
 
@@ -11,8 +10,6 @@ A small concurrency project built to practice:
 
 This program downloads several images concurrently and stores them in a `downloads/` folder.
 
----
-
 ## Concepts Practiced
 
 - Goroutines
@@ -22,8 +19,6 @@ This program downloads several images concurrently and stores them in a `downloa
 - Semaphore pattern
 - Concurrent HTTP requests
 - File creation and saving
-
----
 
 ## How It Works
 
@@ -37,19 +32,12 @@ This program downloads several images concurrently and stores them in a `downloa
    - reports success or failure through a channel
 6. The main goroutine prints the results as downloads finish.
 
----
-
 ## Project Structure
 
-```text
 .
 ├── downloads/
 ├── main.go
 └── README.md
-```
-````
-
----
 
 ## Example URLs
 
@@ -64,8 +52,6 @@ urls := []string{
 	"https://picsum.photos/600/300",
 }
 ```
-
----
 
 ## Why a Semaphore Is Needed
 
@@ -247,6 +233,10 @@ client := http.Client{
 - adding colored terminal output
 - showing how many downloads are currently active
 - creating a progress bar
+
+```
+
+```
 
 ```
 
