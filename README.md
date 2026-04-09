@@ -1,7 +1,7 @@
 ````markdown id="r6n1dw"
 # Go CLI Download Manager
 
-A small concurrency project built with :contentReference[oaicite:0]{index=0} to practice:
+A small concurrency project built to practice:
 
 - goroutines
 - channels
